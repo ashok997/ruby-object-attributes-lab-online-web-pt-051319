@@ -5,14 +5,12 @@ class Person
     @name = his_name
   end
  
-  def name=(full_name)
-    first_name, last_name = full_name.split
-    @first_name = first_name
-    @last_name = last_name
+  def name=(his_name)
+    @name = his_name
   end
  
   def name
-    "#{@first_name} #{@last_name}".strip
+    @name
   end
  
 end
