@@ -14,7 +14,7 @@ class Dog
     @breed = its_breed
   end
  
-  def job
+  def breed
     @breed
   end
   
